@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-02-06T07:03:50.224+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement",
+  "path": "/publish"
+}

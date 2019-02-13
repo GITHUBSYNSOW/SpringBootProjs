@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-02-06T07:23:42.016+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Unknown integral data type for ids : java.lang.String; nested exception is org.hibernate.id.IdentifierGenerationException: Unknown integral data type for ids : java.lang.String",
+  "path": "/consumer"
+}

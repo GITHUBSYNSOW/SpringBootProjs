@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-02-06T07:15:15.665+0000",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'POST' not supported",
+  "path": "/consumer"
+}
