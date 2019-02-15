@@ -1,31 +1,27 @@
 package com.app;
 
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.web.bind.annotation.PostMapping;
+        import org.springframework.web.bind.annotation.RequestBody;
+        import org.springframework.web.bind.annotation.RequestMapping;
+        import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/consumer")
+@RequestMapping("/consume")
 public class ConsumerController {
     @Autowired
-    private ConsumerServiceImpl service;
+    private ConsumerService service;
+    private Logger logger = LoggerFactory.getLogger(getClass());
 
-    @GetMapping
-    public List<Consumer1> getConsumer(){
-        List<Consumer1> resList=service.getAllConsumers();
-        return resList;
-
-    }
     @PostMapping
-    public String registerConsumer(@RequestBody Consumer1 consumer1){
-        String resMsg=service.insertConsumer(consumer1);
-        return resMsg;
+    public String registerPublisher(@RequestBody Consumer1 consumer1){
+        String resultMsg=service.saveConsumer(consumer1);
+        logger.info(resultMsg);
+        return resultMsg;
 
     }
-
-
 
 
 

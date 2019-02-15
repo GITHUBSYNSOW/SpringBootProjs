@@ -8,7 +8,9 @@ import org.springframework.context.annotation.Import;
 @Import(StreamConfig.class)
 public class Consumer {
 
-    public static void main(String[] args) {
-        SpringApplication.run(Consumer.class,args);
+        public static void main(String[] args) {
+            SpringApplication.run(com.app.Consumer.class,args);
+        }
     }
-}
+
+

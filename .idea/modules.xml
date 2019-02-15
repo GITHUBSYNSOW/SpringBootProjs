@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Consumer/Consumer.iml" filepath="$PROJECT_DIR$/Consumer/Consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Publisher/Publisher.iml" filepath="$PROJECT_DIR$/Publisher/Publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consumer/Consumer1.iml" filepath="$PROJECT_DIR$/Consumer/Consumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consumer2/Consumer2.iml" filepath="$PROJECT_DIR$/Consumer2/Consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Publisher2/Publisher2.iml" filepath="$PROJECT_DIR$/Publisher2/Publisher2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudStream.iml" filepath="$PROJECT_DIR$/SpringCloudStream.iml" />
     </modules>
   </component>

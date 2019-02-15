@@ -1,22 +1,42 @@
 package com.app;
 
+import java.security.PrivateKey;
+
 public class ConsumerEvent {
 
-        private String pid;
-        private String msg;
+    private int cid;
+    private String msg;
+   /* private String mail;
+    private String id;*/
 
+   /* public String getMail() {
+        return mail;
+    }
 
-    public ConsumerEvent(String pid, String msg) {
-        this.pid = pid;
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }*/
+
+    public ConsumerEvent(){}
+    public ConsumerEvent(int cid, String msg) {
+        this.cid = cid;
         this.msg = msg;
     }
 
-    public String getPid() {
-        return pid;
+    public int getCid() {
+        return cid;
     }
 
-    public void setPid(String pid) {
-        this.pid = pid;
+    public void setCid(int cid) {
+        this.cid = cid;
     }
 
     public String getMsg() {
@@ -26,5 +46,4 @@ public class ConsumerEvent {
     public void setMsg(String msg) {
         this.msg = msg;
     }
-
 }

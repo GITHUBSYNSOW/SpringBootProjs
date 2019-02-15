@@ -5,38 +5,44 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @Entity
-@Table(name="consumer1")
+@Table(name = "consumer1")
 public class Consumer1 {
-
     @Id
-    /*@GeneratedValue(generator = "uuid")
-    @GenericGenerator(name = "uuid", strategy = "uuid2")*/
-    private String id;
-    private String pid;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="cid")
+    private int cid;
+
+    @Column(name="name")
+    private String name;
+
+    @Column(name="mail")
+    private String mail;
+
+    @Column(name="msg")
     private  String msg;
 
-    public Consumer1(){}
-
-    public Consumer1(String id, String pid, String msg) {
-        this.id = id;
-        this.pid = pid;
-        this.msg = msg;
+    public int getCid() {
+        return cid;
     }
 
-    public String getId() {
-        return id;
+    public void setCid(int cid) {
+        this.cid = cid;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public String getName() {
+        return name;
     }
 
-    public String getPid() {
-        return pid;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setPid(String pid) {
-        this.pid = pid;
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
     }
 
     public String getMsg() {
@@ -45,5 +51,27 @@ public class Consumer1 {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+    public Consumer1(){}
+
+    public Consumer1(int cid, String msg){
+        this.cid = cid;
+        this.msg = msg;
+    }
+
+    public Consumer1(int cid, String name, String mail, String msg) {
+        this.cid = cid;
+        this.name = name;
+        this.mail = mail;
+        this.msg = msg;
+    }
+
+    public String  msg(int cid,String msg){
+        if(this.cid==cid)
+        {
+             this.msg=msg;
+             return  "msg transfer!!";
+        }
+        return  "Msg Is Not Transfer..Id Not matched";
     }
 }

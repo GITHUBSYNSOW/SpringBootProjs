@@ -4,8 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>Publisher</module>
         <module>Consumer</module>
+        <module>Consumer2</module>
+        <module>Publisher2</module>
+
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
