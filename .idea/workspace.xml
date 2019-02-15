@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80fc4acb-1a19-41d7-a195-3875d87df54d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/ConsumerEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/Publisher1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/PublisherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/PublisherRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/Consumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/Publisher2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/Consumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/Consumer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/OutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/app/StreamConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/StreamConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/META-INF/Consumer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/Consumer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/ConsumerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/ConsumerEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/ConsumerRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/ConsumerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/OutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/target/classes/com/app/StreamConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/Publisher.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/ConsumerEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/ConsumerServiceListner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerServiceListner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/InputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/InputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/Publish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/PublishController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/PublishRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/PublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/app/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/Publisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/java/com/app/publisher/StreamConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Publisher2/src/main/java/com/app/StreamConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/META-INF/Publisher.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/ConsumerEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/ConsumerServiceListner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/InputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/Publish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/PublishController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/PublishRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/PublishService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/Publisher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Publisher/target/classes/com/app/publisher/StreamConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -328,7 +274,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-86" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -498,7 +444,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550235205432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550235832276" />
     <property name="last_opened_file_path" value="D:/chatapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1466,15 +1412,15 @@
       <workItem from="1550057489290" duration="3332000" />
       <workItem from="1550121260034" duration="2766000" />
       <workItem from="1550129913763" duration="7154000" />
-      <workItem from="1550206978327" duration="19940000" />
+      <workItem from="1550206978327" duration="20285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76793000" />
+    <option name="totallyTimeSpent" value="77138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.27987897" />
       <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" weight="0.26096824" />
@@ -1492,7 +1438,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.507365" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.81669396" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
